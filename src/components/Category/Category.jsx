@@ -48,11 +48,11 @@ export default function Category() {
               <div className='mb-4'>
                 <p class="mb-[2px] text-white">Enjoy</p>
                 <p class="text-2xl font-semibold mb-[2px]">With</p>
-                <p class="text-4xl xl:text-5xl font-bold opacity-40 mb-2">Gadget</p>
+                <p class="text-4xl xl:text-5xl font-bold opacity-40 mb-2">Laptop</p>
                 <Button
                   text="Browse"
-                  bgColor="bg-primary"
-                  textColor="text-white"
+                  bgColor="bg-white text-primary cursor-pointer hover:scale-105 duration-300 py-2 px-8 rounded-full relative z-10"
+                  textColor="text-primary"
                 />
               </div>
             </div>
