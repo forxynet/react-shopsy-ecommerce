@@ -29,7 +29,7 @@ const BlogData = [
 ]
 export default function Blogs() {
   return (
-    <div>
+    <div className='my-12'>
       <div className="container">
         {/* Header section */}
         <Heading
