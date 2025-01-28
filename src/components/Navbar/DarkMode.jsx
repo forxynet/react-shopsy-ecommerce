@@ -3,7 +3,7 @@ import LightButton from '../../assets/website/light-mode-button.png'
 import DarkButton from '../../assets/website/dark-mode-button.png'
 
 export default function DarkMode() {
-  const [theme, setTheme] = useState(localStorage.getItem("theme") ? localStorage.getItem("theme") : "light")
+  const [theme, setTheme] = useState(localStorage.getItem("theme") ? localStorage.getItem("theme") : "dark")
   const element = document.documentElement;
 
   // set theme to localStorage and html element
