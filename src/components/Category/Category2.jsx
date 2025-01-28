@@ -30,9 +30,9 @@ export default function Category2() {
           <div className='py-10 pl-5 bg-gradient-to-br from-brandGreen/90 to-brandGreen/90 text-white rounded-3xl relative h-[320px] flex items-start'>
             <div>
               <div className='mb-4'>
-                <p class="mb-[2px] text-white">Enjoy</p>
-                <p class="text-2xl font-semibold mb-[2px]">With</p>
-                <p class="text-4xl xl:text-5xl font-bold opacity-40 mb-2">Vircual</p>
+                <p className="mb-[2px] text-white">Enjoy</p>
+                <p className="text-2xl font-semibold mb-[2px]">With</p>
+                <p className="text-4xl xl:text-5xl font-bold opacity-40 mb-2">Vircual</p>
                 <Button
                   text="Browse"
                   bgColor="bg-white"
@@ -46,9 +46,9 @@ export default function Category2() {
           <div className='py-10 pl-5 bg-gradient-to-br from-brandBlue to-brandBlue/90 text-white rounded-3xl relative h-[320px] flex items-start'>
             <div>
               <div className='mb-4'>
-                <p class="mb-[2px] text-white">Enjoy</p>
-                <p class="text-2xl font-semibold mb-[2px]">With</p>
-                <p class="text-4xl xl:text-5xl font-bold opacity-40 mb-2">Speaker</p>
+                <p className="mb-[2px] text-white">Enjoy</p>
+                <p className="text-2xl font-semibold mb-[2px]">With</p>
+                <p className="text-4xl xl:text-5xl font-bold opacity-40 mb-2">Speaker</p>
                 <Button
                   text="Browse"
                   bgColor="bg-white"

@@ -34,7 +34,7 @@ const HeroData = [
   }
 ]
 
-export default function Hero() {
+export default function Hero({ handleOrderPopup }) {
   var settings = {
     dots: false,
     arrows: false,
@@ -66,7 +66,9 @@ export default function Hero() {
                         <Button
                           text="Shop By Category"
                           bgColor="bg-primary"
-                          textColor="text-white" />
+                          textColor="text-white"
+                          handler={handleOrderPopup}
+                        />
                       </div>
                     </div>
                     {/* img section */}

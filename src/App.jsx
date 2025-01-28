@@ -1,4 +1,4 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Category from "./components/Category/Category";
@@ -42,13 +42,13 @@ const BannerData2 = {
 };
 
 const App = () => {
-  const [orderPopup, setOrderPopup] = React.useState(false);
+  const [orderPopup, setOrderPopup] = useState(false);
 
   const handleOrderPopup = () => {
     setOrderPopup(!orderPopup);
   };
 
-  React.useEffect(() => {
+  useEffect(() => {
     AOS.init({
       duration: 800,
       easing: "ease-in-sine",
