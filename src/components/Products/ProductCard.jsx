@@ -7,7 +7,12 @@ export default function ProductCard({ data }) {
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 place-items-center'>
         {/* card section */}
         {data.map((data) => (
-          <div key={data.id} className='group'>
+          <div
+            data-aos="fade-up"
+            data-aos-delay={data.aeosDelay}
+            key={data.id}
+            className='group'
+          >
             <div className='relative'>
               <img
                 src={data.img}

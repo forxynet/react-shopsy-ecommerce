@@ -10,21 +10,24 @@ const BlogData = [
     title: 'How to choose perfect smartwatch',
     subtitle: 'minima facere deserunt vero illo beatae deleniti eius dolores consequuntur, eligendi corporis maiores',
     published: 'Jan 20, 2024 by Dilshad',
-    image: Img1
+    image: Img1,
+    aeosDelay: "0",
   },
   {
     id: 2,
     title: 'How to choose perfect gadget',
     subtitle: 'minima facere deserunt vero illo beatae deleniti eius dolores consequuntur, eligendi corporis maiores',
     published: 'Jan 20, 2024 by Satya',
-    image: Img2
+    image: Img2,
+    aeosDelay: "200",
   },
   {
     id: 3,
     title: 'How to choose perfect VR headset',
     subtitle: 'minima facere deserunt vero illo beatae deleniti eius dolores consequuntur, eligendi corporis maiores',
     published: 'Jan 20, 2024 by Sabir',
-    image: Img3
+    image: Img3,
+    aeosDelay: "400",
   },
 ]
 export default function Blogs() {
@@ -41,7 +44,10 @@ export default function Blogs() {
           {/* Blog card */}
           {
             BlogData.map(data => (
-              <div key={data.id} className='bg-white dark:bg-gray-900 aos-init aos-animate'>
+              <div
+                data-aos="fade-up"
+                data-aos-delay={data.aeosDelay}
+                key={data.id} className='bg-white dark:bg-gray-900 aos-init aos-animate'>
                 <div className='overflow-hidden rounded-2xl mb-2'>
                   <img
                     src={data.image}
