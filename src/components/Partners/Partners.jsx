@@ -6,7 +6,9 @@ import brans4 from '../../assets/brand/br-4.png'
 import brans5 from '../../assets/brand/br-5.png'
 export default function Partners() {
   return (
-    <div className='py-8 mt-24 hidden md:block bg-gray-200 dark:bg-white/10 aos-init aos-animate'>
+    <div
+      data-aos="zoom-out"
+      className='py-8 mt-24 hidden md:block bg-gray-200 dark:bg-white/10 aos-init aos-animate'>
       <div className='container'>
         <div className="grid grid-cols-5 gap-3 place-items-center opacity-50">
           <img src={brans1} alt="" className='w-[80px] dark:invert' />
