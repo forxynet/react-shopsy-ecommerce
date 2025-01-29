@@ -28,7 +28,7 @@ export default function Category() {
                 />
               </div>
             </div>
-            <img src={Image1} alt="" className='w-[320px] absolute bottom-0' />
+            <img data-aos="zoom-in" src={Image1} alt="" className='w-[320px] absolute bottom-0' />
           </div>
           {/* second col */}
           <div className='py-10 pl-5 bg-gradient-to-br from-brandYellow to-brandYellow/90 text-white rounded-3xl relative h-[320px] flex items-end'>
@@ -48,7 +48,7 @@ export default function Category() {
                 />
               </div>
             </div>
-            <img data-aes="zoom-out" src={Image2} alt="" className='w-[320px] absolute -right-4 lg:top-[40px]' />
+            <img data-aos="zoom-in" src={Image2} alt="" className='w-[320px] absolute -right-4 lg:top-[40px]' />
           </div>
           {/* third col */}
           <div className='sm:col-span-2 py-10 pl-5 bg-gradient-to-br from-primary to-primary/90 text-white rounded-3xl relative h-[320px] flex items-end'>
@@ -68,7 +68,7 @@ export default function Category() {
                 />
               </div>
             </div>
-            <img data-aos="zoom-out" src={Image3} alt="" className='w-[320px] absolute -right-4 lg:top-[40px]' />
+            <img data-aos="zoom-in" src={Image3} alt="" className='w-[250px] absolute top-1/1 -translate-y-1/1 -right-0' />
           </div>
         </div>
       </div>
