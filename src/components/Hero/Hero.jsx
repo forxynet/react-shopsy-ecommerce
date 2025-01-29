@@ -41,7 +41,7 @@ export default function Hero({ handleOrderPopup }) {
     infinite: true,
     speed: 800,
     slidesToScroll: 1,
-    // autoplat: true,
+    autoplay: true,
     autoplaySpeed: 4000,
     cssEase: "ease-in-out",
     pauseOnHover: false,
