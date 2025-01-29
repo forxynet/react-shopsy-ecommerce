@@ -79,7 +79,7 @@ export default function Products() {
       <div className="container">
         {/* Header section */}
         <Heading
-          title="Out Products"
+          title="Our Products"
           subtitle={"Explore Our Products"}
         />
         {/* Body section */}
